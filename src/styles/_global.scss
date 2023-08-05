@@ -1,0 +1,17 @@
+body {
+  background-color: $body-bg-color;
+  font-family: $montserrat;
+  color: $soft-black;
+  text-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.1);
+}
+
+h1 {
+  font-size: $headline-1-size;
+  font-weight: $extra-bold;
+  line-height: 64px;
+  
+}
+
+// h2 {
+//   font-size: ;
+// }

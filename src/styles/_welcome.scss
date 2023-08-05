@@ -1,0 +1,100 @@
+.welcome {
+  width: 100%;
+  max-height: 800px;
+  background: $maize; 
+
+  &__content {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__main-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__text-content {
+    position: relative;
+    top: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    height: 500px;
+  }
+}
+
+.menu-benefits {
+  list-style-type: none;
+  z-index: 1;
+
+  li {
+    position: relative;
+    left: 15px;
+    margin-bottom: 10px;
+  }
+
+  &__item {
+    text-decoration: underline;
+    font-size: $headline-4-size;
+    font-weight: $semi-bold;
+    line-height: 28px;
+    color: $soft-black;
+    transition: .3s ease-out;
+  }
+
+  &__item::before {
+    position: relative;
+    right: 15px;
+    top: 7px;
+    content: url('assets/icons/success-icon.png');
+  }
+
+  &__item:hover {
+    color: $robin-egg-blue;
+  }
+}
+
+.learn-more-button {
+  z-index: 1;
+  align-self: flex-start;
+  display: inline-block;
+  min-width: 163px;
+  height: 44px;
+  padding: 12px 24px;
+  background-color: $robin-egg-blue;
+  text-decoration: none;
+  font-size: $label-size;
+  font-weight: $bold;
+  line-height: 20px;
+  color: $soft-black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+  transition: .3s ease-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.arrow-click {
+  z-index: 1;
+  position: absolute;
+  bottom: -100px;
+  left: 150px;
+}
+
+.student-image {
+  display: block; 
+  position: relative;
+  right: 40px;
+}
+
+.wave {
+  position: relative;
+  bottom: 240px;
+  display: block;
+  width: 100%;
+  z-index: 0;
+}
