@@ -1,0 +1,30 @@
+.personal-statistics {
+  width: 100%;
+  height: auto;
+  background-color: $timberwolf;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__text-content {
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 144px;
+
+    & h2 {
+      color: $bittersweet;
+    }
+    
+    & h3 {
+      color: $robin-egg-blue;
+    }
+  }
+}
