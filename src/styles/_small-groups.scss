@@ -1,0 +1,45 @@
+.small-groups {
+  width: 100%;
+  height: auto;
+  background-color: $sky-blue;
+
+  &__content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 52px;
+    padding-bottom: 52px;
+  }
+
+  &__text-content {
+    position: relative;
+    top: 81px;
+    left: 123px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 154px;
+
+    & h2 {
+      color: $bittersweet;
+    }
+
+    & h3 {
+      color: $robin-egg-blue;
+      opacity: .5;
+    }
+
+    & h3:last-child {
+      color: $bittersweet;
+      opacity: .75;
+    }
+  }
+
+  &__image {
+    position: relative;
+    right: 80px;
+  }
+}

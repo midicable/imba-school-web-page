@@ -9,9 +9,23 @@ h1 {
   font-size: $headline-1-size;
   font-weight: $extra-bold;
   line-height: 64px;
-  
 }
 
-// h2 {
-//   font-size: ;
-// }
+.section-headline {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: $soft-pink;
+}
+
+h2 {
+  font-size: $headline-2-size;
+  font-weight: $extra-bold;
+  line-height: 54px;
+}
+
+h3 {
+  font-size: $headline-3-size;
+  font-weight: $extra-bold;
+  line-height: 40px;
+}
